@@ -2,6 +2,6 @@
 ## Title : Thanks For The Buff
 ## Notes: This AddOn cheers when someone gives you a new buff
 ## Author: Runew0lf
-## Version: 1.30a-sm
+## Version: 1.30b-sm
 ## SavedVariables: TFTB_NEWEMOTE
 TFTB.lua
