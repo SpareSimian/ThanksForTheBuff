@@ -32,6 +32,15 @@ f:SetScript("OnEvent", function(self, event)
     end
 end)
 
+-- Wrapper function for C_Spell.GetSpellInfo for the deprecated GetSpellInfo
+local GetSpellInfo = GetSpellInfo or function(spell)
+    local spellInfo = C_Spell.GetSpellInfo(spell);
+    if spellInfo then
+        return spellInfo.name
+    end
+    return nil;
+end
+
 -- Build Spell list (this ignores ranks)
 local buff_list = Set({
     (GetSpellInfo(SPELL_MARK)), --Mark of the Wild
