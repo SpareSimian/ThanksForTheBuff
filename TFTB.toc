@@ -1,7 +1,8 @@
-## Interface: 20501, 110002
+## Interface: 20501, 110100
 ## Title : Thanks For The Buff
 ## Notes: This AddOn cheers when someone gives you a new buff
 ## Author: Runew0lf
-## Version: 1.30b-sm
+## Version: 1.30a-sm
 ## SavedVariables: TFTB_NEWEMOTE
+## Category: Chat
 TFTB.lua
